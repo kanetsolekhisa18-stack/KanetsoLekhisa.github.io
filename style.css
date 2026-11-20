@@ -18,3 +18,16 @@ h1{font-size:clamp(44px,6vw,72px);line-height:1.08;letter-spacing:-.065em;margin
 /* Keep email and phone actions visually separate */
 .contact-actions{display:flex;gap:14px;flex-wrap:wrap}
 .contact-actions a{margin:0}
+
+
+/* Qodatix product description */
+.qodatix-details { margin-top: 1.25rem; }
+.qodatix-details h4 { margin: 0 0 .65rem; color: var(--navy, #173B57); font-size: 1.05rem; }
+.qodatix-details > p { line-height: 1.7; }
+.qodatix-feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin: 1rem 0; }
+.qodatix-feature-grid > div { padding: .9rem; border: 1px solid #dceaf5; border-radius: 12px; background: #f5fafe; }
+.qodatix-feature-grid strong, .qodatix-feature-grid span { display: block; }
+.qodatix-feature-grid strong { color: #173b57; margin-bottom: .35rem; font-size: .9rem; }
+.qodatix-feature-grid span { color: #425666; font-size: .88rem; line-height: 1.55; }
+.qodatix-note { padding: 1rem; border-left: 3px solid #63b3ed; background: #f5fafe; border-radius: 0 10px 10px 0; font-size: .9rem; }
+@media (max-width: 640px) { .qodatix-feature-grid { grid-template-columns: 1fr; } }
